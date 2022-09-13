@@ -91,3 +91,8 @@ body{
     visibility: visible;
     color: #e74c3c;
 }
+@media screen and (max-width:600px){
+    .container{
+        width: 90%;
+    }
+}
