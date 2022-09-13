@@ -6,8 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="estilo/style.css">
+    
 </head>
 <body>
+    <div class="container">
+        <div class="header">
+            <h2>Criar uma conta</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="formcontrol">
+                <label for="username">Nome de usuário</label>
+                <input type="text" id="username" placeholder="Digite o seu nome de usuário...">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+            <div class="formcontrol">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Digite o seu E-mail...">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+            <div class="formcontrol ">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Digite a sua senha...">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+            <div class="formcontrol">
+                <label for="password-confirmation">Confirmação de Senha</label>
+                <input type="password" id="password-confirmation" placeholder="Confirme a sua senha...">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
     
+    <script src="https://kit.fontawesome.com/b34c5c1836.js" crossorigin="anonymous"></script>
+    <script src="script/script.js"></script>
 </body>
 </html>
